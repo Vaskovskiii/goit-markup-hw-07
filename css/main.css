@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 
-.navigation, .header__container, .contacts, .contacts__link-mail, .contacts__link-tel, .grade__social-item, .team__social-link, .clients__social-link, .portfolio__link1, .footer__social-link, .modal-btn, .policy-text, .button-send {
+.navigation, .header__container, .contacts, .contacts__link-mail, .contacts__link-tel, .grade__social-item, .team__social-link, .clients__social-link, .portfolio__link1, .footer__social-link, .modal-btn, .button-send {
   align-items: center;
   display: flex;
 }
@@ -768,7 +768,7 @@ body {
 }
 
 .footer__subscribe {
-  margin-left: 120px;
+  margin-left: 96px;
 }
 
 .footer__input {
@@ -813,7 +813,7 @@ body {
 .modal {
   width: 500px;
   min-height: 500px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   position: absolute;
   top: 50%;
@@ -849,12 +849,12 @@ body {
   width: 30px;
   height: 30px;
   justify-content: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .modal-btn:hover, .modal-btn:focus {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .is-hidden {
@@ -941,41 +941,37 @@ body {
   color: var(--blue-text-colour);
 }
 
-/*.policy-check
-  {
+.policy-check {
   -moz-appearance: none;
-  -webkit-appearance: none; 
+  -webkit-appearance: none;
   appearance: none;
   position: absolute;
-}*/
+}
+
 .policy-text {
+  display: flex;
+  align-items: center;
   font-size: 14px;
-  line-height: 1.71;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  position: relative;
+  line-height: calc(24 / 14);
+  /*letter-spacing: 0.03em;*/
   color: #757575;
 }
 
 .policy-text::before {
-  display: inline-block;
+  content: '';
   width: 16px;
   height: 15px;
-  border: 1px  solid #000000;
+  border: 1px solid #000000;
   border-radius: 2px;
-  margin-right: 3px;
+  margin-right: 7px;
 }
 
-.policy-check:checked + .policy-text::before::before {
-  background-image: url(../images/symbol-defs.svg#icon-icon-check);
+.policy-check:checked + .policy-text::before {
+  background-image: url(../images/icon-check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
-}
-
-.policy-agree {
-  margin-left: 10px;
 }
 
 .btn {
@@ -984,8 +980,8 @@ body {
   font-weight: 400;
   letter-spacing: 0.06em;
   display: flex;
-  color: #FFFFFF;
-  background: #2196F3;
+  color: #ffffff;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-color: var(--blue-text-colour);
   border-radius: 4px;
@@ -1000,6 +996,11 @@ body {
 }
 
 .text-check {
-  color: #2196F3;
+  color: #2196f3;
+  margin-left: 3px;
+}
+
+.policy-text-check {
+  color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
