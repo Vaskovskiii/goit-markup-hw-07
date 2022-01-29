@@ -1,6 +1,4 @@
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -9,7 +7,7 @@
 }
 
 
-.header-contacts {
+.contacts {
   font-weight: 500;
   @extend %align-list;
   margin-left: auto;
@@ -42,12 +40,12 @@
   background-color: var(--blue-text-colour);
 }
 
-.link-header-icon {
+.contacts__link-icon {
   margin-right: 10px;
   fill:  #757575;;
 }
 
-.link-header-mail  {
+.contacts__link-mail  {
   @include font (14px, 1.5, 500, 0.02em);
   color: #757575;;
   // font-weight: 500;
@@ -71,7 +69,7 @@
   }  
 }
 
-.link-header-tel  {
+.contacts__link-tel  {
   @include font (14px, 1.14, 500, 0.02em);
   color: #757575;;
   //font-weight: 500;

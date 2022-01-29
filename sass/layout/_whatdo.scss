@@ -2,16 +2,16 @@
   margin-bottom: 94px;
 }
 
-.whatdo-item:not(:last-child) {
+.whatdo__item:not(:last-child) {
 margin-right: 30px;
 }
 
-.whatdo-list {
+.whatdo__list {
   display: flex;
   justify-content: space-between;
 }
 
-.whatdo-title {
+.whatdo__title {
   @include font (36px, 1.17, 700, 0.03em);
   //font-size: 36px;
   //line-height: (42px/36px);
@@ -24,11 +24,11 @@ margin-right: 30px;
   color: #212121;
 }
 
-.whatdo-item-wrap {
+.whatdo__item-wrap {
   position: relative;
 }
 
-.whatdo-add-text {
+.whatdo__add-text {
   @include font (14px, 1.14, 700);
 //font-weight: bold;
 //font-size: 14px;

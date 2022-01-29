@@ -3,18 +3,18 @@
   padding-bottom: 94px;
   }
 
-  .grade-list {
+  .grade__list {
     display: flex;
   }
   
-  .grade-item {
+  .grade__item {
     width: 270px;
     &:not(:last-child){
       margin-right: 30px;
     }
   }
   
-  .grade-title{
+  .grade__title{
     @include font (14px, 1.14, 700, 0.03em);
     //font-size: 14px;
     //line-height: 16px;
@@ -26,7 +26,7 @@
     color: #212121;
   }
   
-  .grade-aft-title {
+  .grade__aft-title {
     @include font (14px, 1.72, 400, 0.03em);
     //font-size: 14px;
     //line-height: (24px/14px);
@@ -34,20 +34,19 @@
     color: #757575;
   }
   
-  .grade-container {
+  .grade__container {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
   }
   
-  .grade-social-item {
+  .grade__social-item {
     @extend %align-list;
     justify-content: center;
-    
   }
   
-  .grade-social-icon {
+  .grade__social-icon {
     margin-bottom: 25px;
     margin-top: 25px;
   }
