@@ -1,0 +1,22 @@
+@import "./base/reset";
+@import "./utils/vars.scss";
+@import "./base/common.scss";
+@import "./components/container";
+
+
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+@import "./components/logo";
+@import "./components/navigation";
+
+@import "./layout/header";
+@import "./layout/solution";
+@import "./layout/grade";
+@import "./layout/whatdo";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/footer";
+
+@import "./components/modal"; 
